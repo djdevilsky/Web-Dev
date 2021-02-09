@@ -1,0 +1,237 @@
+#log {
+	padding-top: 142px;
+ }
+.logo {
+	width: 296px;
+	height: 106px;
+    margin: -28px;
+}
+#head {
+    padding-left: 162px;
+    margin-right: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    width: 580px;
+    margin-top: 50px;
+}
+.text {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;;
+    font-size: 28px;
+    line-height: 32px;
+    width: 500px;
+    color: #1c1e21;
+    font-weight: normal;
+}
+.content_page {   
+    margin: 0 auto;
+    width: 980px;
+    padding: 20px 0;
+}
+body {
+    background-color: #f0f2f5;
+    color: #1c1e21;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+#registration {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#registration_box {
+    height: 456px;
+    width: 396px;
+}
+#registration_field {
+    padding-bottom: 24px;
+    padding-top: 10px;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    width: 396px;
+    text-align: center;
+}
+.input_div {
+    font-size: 17px;
+    width: 364px;
+    display: inline-block;
+    margin: auto;
+    padding: 6px 0;
+}
+.input {
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    line-height: 16px;
+}
+.button {
+    padding-top: 6px;
+}
+#login_btn {
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 332px;
+    height: 46px;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    box-sizing: content-box;
+}
+#pass {
+    margin-top: 16px;
+}
+#pass a {
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+#line {
+    border-bottom: 1px solid #dadde1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+    margin-right: 16px;
+}
+#create_new {
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #42b72a;
+    color: #fff;
+    font-weight: bold;
+}
+#create_f {
+    
+    color: #1c1e21;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+#create_fl {
+    font-weight: 600;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+h2 {
+    margin: 0;
+}
+#footer_box {
+    padding-top: 20px;
+}
+#footer {
+    color: #737373;
+    margin: 0 auto;
+    width: 980px;
+}
+#footer_list {
+    align-items: center;
+    display: flex;
+    padding-top: 8px;
+}
+#plus {
+    height: 18px;
+    margin-right: 0;
+    line-height: 18px;
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    padding: 0 8px;
+    border: 1px solid;
+    border-radius: 2px;
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    text-decoration: none;
+}
+#footer_line {
+    border-bottom: 1px solid #dddfe2;
+    height: 8px;
+    margin-bottom: 8px;
+}
+#facebook_pages {
+    line-height: 1.6;
+    margin-left: -20px;
+}
+#facebook_pages li {
+    line-height: 1.6;
+    padding-right: 0;
+    padding-left: 20px;
+    display: inline-block;
+}
+#facebook_pages li a {
+    cursor: pointer;
+    color: #8a8d91;
+    text-decoration: none;
+}
+#icon1 {
+    width: 12px;
+    height: 12px;
+    background-position: -65.5px -69px;
+    background-image: url(icons.png);
+    background-size: 170px 88px;
+    display: inline-block;
+}
+#icon2 {
+    width: 16px;
+    height: 16px;
+    background-position: -2.5px -67.5px;
+    background-image: url(icons.png);
+    background-size: 170px 88px;
+    display: inline-block;
+}
+#list_first {
+    padding-left: 0;
+}
+#copyright_m {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+li {
+    color: #8a8d91;
+    cursor: pointer;
+    text-align: -webkit-match-parent;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 0;
+}
+h2 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+#foot {
+	background: #fff;
+	padding-bottom: 10px;
+}
