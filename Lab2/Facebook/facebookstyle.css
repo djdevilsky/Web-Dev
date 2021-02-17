@@ -44,11 +44,11 @@ body {
     margin-left: 150px;
     margin-top: 50px;
 }
-#registration_box {
+#registration_container {
     height: 456px;
     width: 396px;
 }
-#registration_field {
+#registration_signin {
     padding-bottom: 24px;
     padding-top: 10px;
     align-items: center;
@@ -80,7 +80,7 @@ body {
 .button {
     padding-top: 6px;
 }
-#login_btn {
+#login {
     background-color: #1877f2;
     border: none;
     border-radius: 6px;
@@ -96,10 +96,10 @@ body {
     color: #fff;
     box-sizing: content-box;
 }
-#pass {
+#pas {
     margin-top: 16px;
 }
-#pass a {
+#pas a {
     color: #1877f2;
     font-size: 14px;
     font-weight: 500;
@@ -110,10 +110,10 @@ body {
     border-bottom: 1px solid #dadde1;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 16px;
+    margin-left: 16px;
     margin-right: 16px;
 }
-#create_new {
+#create {
     border: none;
     border-radius: 6px;
     font-size: 17px;
@@ -126,7 +126,7 @@ body {
     color: #fff;
     font-weight: bold;
 }
-#create_f {
+#create_p {
     
     color: #1c1e21;
     font-size: 14px;
@@ -135,7 +135,7 @@ body {
     margin-top: 28px;
     text-align: center;
 }
-#create_fl {
+#create_pl {
     font-weight: 600;
     color: inherit;
     cursor: pointer;
@@ -144,7 +144,7 @@ body {
 h2 {
     margin: 0;
 }
-#footer_box {
+#footer_container {
     padding-top: 20px;
 }
 #footer {
