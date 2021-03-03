@@ -1,7 +1,8 @@
 import { Component } from "@angular/core";
 
-import { products } from "../products";
+import { products, product } from "../products";
 import { ActivatedRoute } from "@angular/router";
+import { Input } from "@angular/core";
 
 @Component({
   selector: "app-product-list",
@@ -9,8 +10,8 @@ import { ActivatedRoute } from "@angular/router";
   styleUrls: ["./product-list.component.css"]
 })
 export class ProductListComponent {
-  prod = {};
-
+  prod = [];
+  @Input() product;
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
@@ -18,7 +19,9 @@ export class ProductListComponent {
     const categId = Number(routepath.get("catId"));
     this.prod = products.filter(product => product.catId === categId);
   }
-
+  delete(p: product): void {
+    this.prod = this.prod.filter(product => product != p);
+  }
   onNotify() {
     window.alert("You will be notified when the product goes on sale");
   }
