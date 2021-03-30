@@ -1,6 +1,6 @@
 <div *ngIf="album">
 <h2>Albums Detail #{{album.id}}</h2>
-<input class="words" id="unique" type="text" [(ngModel)]="album.title">
+<input type="text" [(ngModel)]="album.title">
 <p>{{album.title}}</p>
 <button (click)="updateAlbum()">Save</button>
 <button (click)="Photos()">Photos</button>
